@@ -26,7 +26,7 @@ Ao longo do curso, são desenvolvidos três projetos principais que aplicam os c
 
 ## Estrutura do Repositório
 - `/exercicios`: Resolução dos mais de 380 exercícios propostos no curso.
-- `/projetos`: Código-fonte dos sistemas práticos desenvolvidos.
+
 
 ---
 *Repositório mantido como parte da transição de carreira e estudos de Análise e Desenvolvimento de Sistemas (ADS).*
