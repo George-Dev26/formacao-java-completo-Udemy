@@ -3,7 +3,7 @@
 // Ciclo 24     Tipos Númericos - Parte 1
 // Ciclo 25   Tipos numéricos - Parte 2
 // Números inteiros e reais
-
+/*
 
 public class Programa11 {
     public static void main ( String [] args ) {
@@ -96,7 +96,7 @@ public class Programa12 {
 }
 
 
- */
+
 
 
 
@@ -233,6 +233,8 @@ public class Programa15 {
 
 
 
+
+ */
 
 
 
