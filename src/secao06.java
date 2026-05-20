@@ -160,7 +160,7 @@ c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100;
 d) Mostre na tela cada valor do vetor A, um em cada linha.
 
  */
-
+/*
 
 public class Exercicio1 {
     public static void main(String[] args) {
@@ -195,7 +195,7 @@ A[4] = 100;
 //                      EXERCÍCIO 2
 //2- Faça um programa que leia uma matriz 4 x 4, conte e escreva quantos valores maiores que 10 ela possui.
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Exercicio2 {
     public static void main(String[] args) {
@@ -233,7 +233,7 @@ leitor.close();
 3- Escreva um programa que leia uma matriz 5 x 5 e um valor X. O programa deverá fazer uma
 busca desse valor na matriz e, ao final, escrever a localização (linha e coluna) ou uma
 mensagem de "não encontrado".
-*/
+
 
 
 
@@ -271,6 +271,8 @@ public class Exercicio {
 }
 
 
+
+ */
 
 
 
