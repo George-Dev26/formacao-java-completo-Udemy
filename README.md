@@ -4,7 +4,7 @@ Este repositório contém o registro de aprendizado, exercícios e projetos dese
 O objetivo é consolidar os fundamentos da linguagem, com foco em Orientação a Objetos, estruturas de dados e desenvolvimento de aplicações robustas.
 
 ## Sobre o Curso
-A formação abrange mais de 32 horas de conteúdo, partindo do nível básico até conceitos avançados da linguagem Java (Versão 11).
+A formação abrange mais de 32 horas de conteúdo, partindo do nível básico até conceitos avançados da linguagem Java (Versão 21).
 
 ### Principais Tópicos Estudados
 - **Fundamentos:** Tipos de dados, variáveis e estruturas de controle/decisão.
@@ -20,8 +20,8 @@ Ao longo do curso, são desenvolvidos três projetos principais que aplicam os c
 3. **Projeto Banco:** Simulação de operações bancárias e transações.
 
 ## Ferramentas Utilizadas
-- **Linguagem:** Java 11
-- **IDE:** IntelliJ IDEA
+- **Linguagem:** Java 21
+- **IDE:** IntelliJ IDEA (mas o curso é todo em ECLIPSE)
 - **Controle de Versão:** Git e GitHub
 
 ## Estrutura do Repositório
