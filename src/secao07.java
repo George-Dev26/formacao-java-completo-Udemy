@@ -80,6 +80,8 @@ static String mensagem(){
 }
 
 
+
+
  */
 
 
@@ -88,7 +90,7 @@ static String mensagem(){
 
 
 //====================================================================
-
+/*
 
 //              EXERCÍCIOS PARA PRÁTICAR
 
@@ -193,3 +195,6 @@ public class Exercicio3{
 }
 
 
+
+
+ */

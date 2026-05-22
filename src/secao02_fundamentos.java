@@ -110,11 +110,11 @@ real e imprima o resultado do quadrado desse número.
 
 */
 
-
+/*
 
 import java.util.Scanner;
 
-/*
+
 // Exercício 1.
 
     public class secao02_fundamentos {
@@ -137,9 +137,9 @@ import java.util.Scanner;
 
 
 
- */
 
-/*
+
+
 // Exercício 2.
 
     public class secao02_fundamentos {
@@ -173,7 +173,7 @@ import java.util.Scanner;
     }
 
 
- */
+
 
 
 
@@ -205,5 +205,7 @@ import java.util.Scanner;
 
 //Ciclo 11 	RESUMOS BREVES E FINALIZAÇÃO DA SEÇÃO 2
 
+
+ */
 
 

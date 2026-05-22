@@ -11,9 +11,10 @@ numeros[2] = 5;
 numeros[3] = 7;
 numeros[4] = 9;   // Final do Array
 
- */
+*/
 
 /*
+
 public class Programa16 {
     public static void main(String[] args) {
 // Declarando um vetor
@@ -146,7 +147,7 @@ public class Programa19 {
 
 
 // =======================================================================================
-*/
+
 
 //             EXERCÍCIO PARA PRATICAR
 /*
@@ -159,8 +160,8 @@ vetor e mostre na tela esta soma;
 c) Modifique o vetor na posição 4, atribuindo a esta posição o valor 100;
 d) Mostre na tela cada valor do vetor A, um em cada linha.
 
- */
-/*
+
+
 
 public class Exercicio1 {
     public static void main(String[] args) {
@@ -228,8 +229,8 @@ leitor.close();
 // =======================================================================================
 
 //              EXERCÍCIO 3
-/*
 
+/*
 3- Escreva um programa que leia uma matriz 5 x 5 e um valor X. O programa deverá fazer uma
 busca desse valor na matriz e, ao final, escrever a localização (linha e coluna) ou uma
 mensagem de "não encontrado".
@@ -272,7 +273,9 @@ public class Exercicio {
 
 
 
+
  */
+
 
 
 

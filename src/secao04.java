@@ -151,14 +151,14 @@ public class Programa10 {
 //                      EXERCÍCIOS PARA PRATICAR
 
 
-/*
+
 
 //          Exercício 1
 
 //1- Faça um programa que determine e mostre os cincos primeiros múltiplos de 3, considerando
 //números maiores que 0.
 
-
+/*
 public class Exercicio1 {
     public static void main(String[] args) {
 
@@ -173,7 +173,7 @@ public class Exercicio1 {
 }
 
 
- */
+
 
 
 
@@ -217,7 +217,7 @@ do {
 }
 
 
- /*
+
 
 //     Exercício 3
 
@@ -242,7 +242,9 @@ public class secao04 {
 
 
 
-  */
+ */
+
+
 
 
 

@@ -115,11 +115,11 @@ par ou ímpar.
 
  */
 
-
+/*
 
 import java.util.Scanner;
 
-/*                              EXERCÍCIO 01
+//                              EXERCÍCIO 01
 
 public class secao03 {
     public static void main(String[] args) {
@@ -146,10 +146,10 @@ public class secao03 {
 }
 
 
- */
 
 
-/*                          EXERCÍCIO 02
+
+//                       EXERCÍCIO 02
 
 
 public class secao03 {
@@ -172,7 +172,7 @@ leitor.close();
 }
 
 
- */
+
 
 
 public class secao03 {
@@ -196,6 +196,8 @@ leitor.close();
 
 
 
+
+ */
 
 
 
