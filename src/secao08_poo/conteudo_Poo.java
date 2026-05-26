@@ -1,3 +1,5 @@
+package secao08_poo;
+
 //                      SEÇÃO 08:  PROGRAMAÇÃO ORIENTADA A OBJETOS
 
 //Ciclo 43:     O que é Orientação a Objetos ?
@@ -84,10 +86,10 @@ public class Produto {
 
 //==========================================================
 
-        // Ciclo 47:  Objetos
+// Ciclo 47:  Objetos
 // - Obejtos são produtos/instâncias da classe;
-/*
-        public class secao08 {
+
+        public class conteudo_Poo {
 
             static public class Produto {
 
@@ -141,18 +143,18 @@ public class Produto {
 }
 
 
- */
+
 //==================================================================================
 
-
-// Ciclo 48:  Construtor
 /*
+// Ciclo 48:  Construtor
+
 
 // - O construtor da classe Sempre tem o mesmo nome da classe;
 // - Podemos ter mais de um na classe;
 // - Por padrão, a JVM - Java Virtual Machine, cire em tompo de execução, um construtor padrão - vazio
 
-public class secao08 {
+public class conteudo_Poo {
     public static class Pessoa {
 
         String nome, email;
@@ -201,196 +203,6 @@ public class secao08 {
     }
 
 
- */
-
-//==================================================================================
-
-//                              EXERCÍCIO PARA PRÁTICAR
-/*
-1. Crie uma classe para representar um contato, com os atributos privados de nome, email e
-telefone. Crie os métodos públicos necessários para sets e gets e também um método para
-imprimir os dados de uma pessoa. Crie também um programa, instancie um objeto desta classe
-e imprima os dados do objeto
-
-
-public class secao08 {
-    public static class Contato{
-   private String nome, email, telefone;
-
-        public String getEmail() {
-            return email;
-        }
-        public void setEmail(String email) {
-            this.email = email;
-        }
-
-        public String getNome() {
-            return nome;
-        }
-
-        public void setNome(String nome) {
-            this.nome = nome;
-        }
-
-        public String getTelefone() {
-            return telefone;
-        }
-
-        public void setTelefone(String telefone) {
-            this.telefone = telefone;
-        }
-
-        public void imprimir () {
-            System.out.println("Nome: " + this.nome);
-            System.out.println("email: " + this.email);
-            System.out.println("telefone: " + this.telefone);
-        }
-
-    }
-
-
-
-    public static void main(String[] args) {
-
-        Contato contato = new Contato();
-
-        contato.setNome("Felicity Jones");
-        contato.setNome("felicity@gmail.com");
-        contato.setTelefone("5555-6754");
-
-        contato.imprimir();
-
-    }
-}
-
 
  */
-//=======================================================================
-
-
-//                          EXERCÍCIO 2
-/*
-2. Crie uma classe Agenda que pode armazenar contatos, podendo realizar as seguintes
-operações:
-- void armazenarContato(Contato contato);
-- void removeContato(Contato contato);
-- int buscaContato(String nome); // Informa em que posição da agenda está o contato.
-- void imprimeAgenda(); // Imprime os dados de todos os contatos da agenda.
-- void imprimeContato(int index); // Imprime os dados do contato que está no índice informado.
- */
-
-
-import java.util.ArrayList;
-
-public class secao08 {
-
-    public static class Contato {
-        String nome, email, telefone;
-
-        public String getEmail() {
-            return email;
-        }
-        public void setEmail(String email) {
-            this.email = email;
-        }
-
-        public String getNome() {
-            return nome;
-        }
-
-        public void setNome(String nome) {
-            this.nome = nome;
-        }
-
-        public String getTelefone() {
-            return telefone;
-        }
-
-        public void setTelefone(String telefone) {
-            this.telefone = telefone;
-        }
-
-        public void imprimir () {
-            System.out.println("Nome: " + this.nome);
-            System.out.println("email: " + this.email);
-            System.out.println("telefone: " + this.telefone);
-        }
-
-
-    }
-
-    public static class Agenda {
-        ArrayList<Contato> contatos = new ArrayList<Contato>();
-
-        void armazenarContato(Contato contato) {
-            this.contatos.add(contato);
-        }
-
-        void removeContato(Contato contato) {
-            this.contatos.remove(contato);
-        }
-
-        int buscaContato(String nome) {
-            for (int i = 0; i < contatos.size(); i++) {
-                if (contatos.get(i).getNome() == nome) {
-                    return i;
-                }
-            }
-            return -1;
-        }
-
-        void imprimeAgenda() {
-            System.out.println("===========AGENDA===========");
-            for (Contato contato : contatos) {
-                contato.imprimir();
-            }
-            System.out.println("===========FIM============");
-        }
-
-        void imprimeContato(int index) {
-            contatos.get(index).imprimir();
-
-        }
-    }
-
-
-    public static void main(String[] args) {
-
-    Agenda agenda = new Agenda();
-
-    Contato contato1 = new Contato();
-        contato1.setNome("Felicity Jones");
-        contato1.setEmail("Felicity@gmail.com");
-        contato1.setTelefone("555-8765");
-    Contato contato2 = new Contato();
-        contato2.setNome("Angelina julie");
-        contato2.setEmail("angelina@gmail.com");
-        contato2.setTelefone("888-9780");
-    Contato contato3 = new Contato();
-        contato3.setNome("Ray Sychev");
-        contato3.setEmail("ray@gmail.com");
-        contato3.setTelefone("999-7856");
-
-
-        agenda.armazenarContato(contato1);
-        agenda.armazenarContato(contato2);
-        agenda.armazenarContato(contato3);
-
-        agenda.imprimeAgenda();
-
-        agenda.imprimeContato(2); // Ray
-
-        System.out.println(agenda.buscaContato("Angelina Jolie")); //1
-
-        agenda.removeContato(contato3);
-
-        agenda.imprimeAgenda();
-    }
-}
-
-
-
-
-
-
 
